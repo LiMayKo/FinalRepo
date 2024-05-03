@@ -1,18 +1,3 @@
-// Firebase Config
-const firebaseConfig = {
-  apiKey: "AIzaSyCotzSrU7iRJV685q8uceW5kve4kYGkhWA",
-  authDomain: "ka-halaman-505b5.firebaseapp.com",
-  projectId: "ka-halaman-505b5",
-  storageBucket: "ka-halaman-505b5.appspot.com",
-  messagingSenderId: "310047835427",
-  appId: "1:310047835427:web:face5a3286c95b10ed3896",
-};
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-const db = firebase.firestore();
-const storage = firebase.storage();
 
 const form = document.getElementById("imageForm");
 const imageContainer = document.getElementById("imageContainer");
